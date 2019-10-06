@@ -16,7 +16,7 @@ chmod +x *.sh
 sh data_generator.sh
 ```
 
-#### 3. Verify _emp_data_file.csv contents
+#### 3. Verify _employee_data.csv contents
 ```
 head -50 employee_data.csv
 ```
