@@ -38,6 +38,6 @@ do
   echo -e "$i,user$i,${userSal[$randSal]},${myCity[$randCity]},91902$RANDOM$i"
 done > $sample_data_file
 
-echo -e "\n\n$sample_data_file file is ready."
+echo -e "\n\n $sample_data_file file is ready."
 
 #End of script
