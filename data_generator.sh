@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sample_data_file=sample_user_data.csv
+sample_data_file=employee_data.csv
 number_of_records=5000
 
 myCity[0]="Delhi"
@@ -38,6 +38,6 @@ do
   echo -e "$i,user$i,${userSal[$randSal]},${myCity[$randCity]},91902$RANDOM$i"
 done > $sample_data_file
 
-echo -e "\n\n$emp_data_file.csv file is ready."
+echo -e "\n\n$sample_data_file file is ready."
 
 #End of script
