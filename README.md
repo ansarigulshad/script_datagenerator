@@ -18,5 +18,5 @@ sh data_generator.sh
 
 #### 3. Verify _emp_data_file.csv contents
 ```
-head -50 emp_data_file.csv
+head -50 employee_data.csv
 ```
