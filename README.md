@@ -4,6 +4,8 @@
 ```
 yum clean all
 yum install git -y
+
+cd /var/tmp/
 git clone https://github.com/ansarigulshad/script_datagenerator.git
 cd script_datagenerator
 chmod +x *.sh
